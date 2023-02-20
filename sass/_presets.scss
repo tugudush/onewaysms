@@ -1,0 +1,17 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: $site-default-color;
+  min-height: 100vh;  
+} // end of body
+
+.container {
+  // width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  // border: 1px solid #000;
+
+  @media (max-width: 767px) {
+    padding: 0 15px;
+  } // end of @media (max-width: 767px)
+
+} // end of .container

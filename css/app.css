@@ -1,0 +1,38 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #231F20;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form #mobileno,
+form #message,
+form #submit {
+  width: 640px;
+  display: block;
+  margin-top: 15px;
+}
+form #mobileno {
+  width: 640px;
+}
+
+/*# sourceMappingURL=app.css.map */
